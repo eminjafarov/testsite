@@ -1,0 +1,96 @@
+.box{
+    width: 150px;
+    height: 150px;
+    background-image: url(./grass.jpg);
+    background-position: center;
+    background-size: cover;
+    animation-name: qutu;
+    animation-duration: 6s;
+    animation-iteration-count: infinite;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    bottom: 0px;
+    transform: rotate(0deg);
+
+}
+@keyframes qutu{
+    0%{
+       
+        transform: rotate(0eg);
+    }
+    10%{
+        top:510px;
+        left: 0px;
+    }
+    30%{
+        top: 510px;
+        left: 600px;
+        
+    }
+    50%{
+        
+        top: 510px;
+        left: 1200px;
+    }
+    60%{
+        left: 1200px;
+        top: 0px;   
+    }
+    70%{
+        left: 0px;
+        top: 0px;
+    }
+    80%{
+       
+    }
+}
+
+.box2{
+    width: 150px;
+    height: 150px;
+    background-image: url(./mountain.jpg);
+    background-position: center;
+    background-size: cover;
+    animation-name: qutu2;
+    animation-duration: 6s;
+    animation-iteration-count: infinite;
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    bottom: 0px;
+    transform: rotate(0deg);
+
+}
+@keyframes qutu2{
+    0%{
+        
+        transform: rotate(0eg);
+
+    }
+    10%{
+        top: 0px;
+        right: 510px;
+    }
+    30%{
+        top: 0px;
+        right:1200px
+        
+        
+
+    }
+    50%{
+        right:1200px;
+        bottom: 0px;
+        top: 510px;     
+    }
+    60%{
+        top: 510px;
+        right: 0px;
+    }
+    70%{
+        right: 0px;
+        top: 0px;
+
+    }
+}

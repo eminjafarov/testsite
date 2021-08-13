@@ -1,0 +1,195 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    list-style: none;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+.head{
+    width: 100%;
+    height: 800px;
+    background-image: url(./hero-bg.jpg);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+    
+
+}
+.fon{
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    opacity: 50%;
+    background-color: black;
+    position: absolute;
+    z-index: 0;
+}
+.head-line{
+    width: 100%;
+    height: 80px;
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.head-icon{
+    width: 100px;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 20px;
+    
+}
+.head-icon img{
+    width: 100%;
+}
+.menu{
+    width: 100px;
+    height: 80px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.menu a{
+    color: rgb(49, 138, 8);
+}
+.menu a img{
+    width: 100%;
+    padding-left: 3px;
+    margin-left: 3px;
+}
+.icon2{
+    width: 25px;
+    height: 25px;
+    
+}
+.head-center{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 200px;
+}
+.head-text{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: left;
+}
+.head-text h3{
+    font-size: 17px;
+    padding: 0 680px 0 0;
+    color: rgb(216, 216, 216);
+    z-index: 99;
+    
+}
+.head-text h1{
+    font-size: 65px;
+    padding: 0 250px 0 150px;
+    z-index: 99;
+}
+.head-text{
+    color: white;
+}
+.icon3{
+    width: 35px;
+    height: 35px;
+    border: 1px solid white;
+    border-radius: 50%;
+    margin-top: 10px;
+
+}
+.icon3 svg{
+    width: 100%;
+    fill: white;
+    padding: 5px;
+    
+    
+}
+.icon-menu{
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 150px;
+}
+.head-buttons{
+    width: 100%;
+    display: flex;
+    padding: 0 0 0 150px;
+}
+.head-button{
+    width: 220px;
+    height: 50px;
+    color: white;
+    border: 1px solid white;
+    text-align: center;
+    padding: 13px 0 0 0;
+    margin: 20px 0 0 10px;
+    z-index: 99;
+
+}
+.head-button:hover{
+    background-color: rgb(161, 155, 155);
+    color: black;
+    
+}
+.head-button a{
+    color: white;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    z-index: 99;
+}
+.green-box{
+    width: 100%;
+    height: 600px;
+    background-color: #39b54a;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+
+}
+.green-box h3{
+    font-size: 18px;
+}
+.green-box h1{
+    font-size: 65px;
+    color: white;
+}
+.green-box.line{
+    width: 510px;
+    height: 3px;
+    background-color: white;
+}
+.green-box p{
+    text-align: center;
+    font-size: 23px;
+    padding: 0 330px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+}
+.blocks11{
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.block11{
+    width: 100%;
+    height: 150px;
+    border: 1px solid white;
+
+}
+.block11 h6{
+    font-size: 16px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+

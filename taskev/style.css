@@ -1,0 +1,21 @@
+@font-face {
+    
+    
+    font-family: demo;
+    src: url(Sinami\ demo.ttf);
+}
+.basliq{
+    color: red;
+     font-family:demo ;
+    
+}
+
+
+.text{
+    width: 300px;
+    height: 150px;
+    background-color: rgba(red, green, blue, 1.9);
+    color: blue;
+    text-shadow:red 0 2px 0 0;
+    font-style: italic;
+}

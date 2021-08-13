@@ -1,0 +1,54 @@
+.box{
+    width: 100%;
+    height: 500px;
+    background-image: url(./stadium.png);
+    background-size: cover;
+    background-position:center ;
+    position: relative;
+}
+
+.player{
+    animation-name: oyuncu;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    transform: rotate(0deg);
+}
+
+@keyframes oyuncu{
+    0%{
+        left: 0px;
+        top: 0px;
+
+    }
+    100%{
+        left: 1000px;
+        top: 70px;
+    }
+}
+
+.ball{
+    animation-name: top;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    position: absolute;
+    left: 190px;
+    top: 150px;
+    transform: rotate(0deg);
+
+}
+
+@keyframes top{
+    0%{
+        left: 190px;
+        top: 150px;
+        transform: rotate(360deg);
+
+    }
+    100%{
+        left: 1500px;
+        top: 200px;
+    }
+}

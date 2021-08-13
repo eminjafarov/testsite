@@ -1,0 +1,53 @@
+.basliq{
+    text-align: center;
+}
+.box{
+     color: white;
+     width:100% ;
+     height:400px ;
+    
+    margin-left: 100px;
+    background-repeat: no-repeat;
+    background-image: url("../ders6/bmwf10.jpg");
+
+}
+.Parol{
+	
+	width: 600px;
+	padding: 10%;	
+	border: solid 1px #123;
+	border-radius: 5px;
+	background-color: #fff8f8ec;
+    margin: 100px 20px 1000px 20px;
+    padding: 5%;
+	margin: 0 0 16px 0;
+	border: solid 1px rgb(172, 185, 197);
+	border-radius: 5px;
+	background-color: rgb(194, 211, 228);
+    padding-top: 1px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    
+}
+form input{
+    padding: 15px 20px;
+}
+form select{
+   padding: 5px 2px;
+
+}
+.class1{
+    border-top: none;
+}
+.box2{
+    background-image: url(../ders6/bmwe39.jpg);
+     width: 100%;
+     height: 300px;
+    border: 5px solid red;
+    border-radius: 50%;
+    background-size:100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    
+}

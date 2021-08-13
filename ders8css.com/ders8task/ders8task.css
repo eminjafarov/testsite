@@ -1,0 +1,92 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style-type: none;
+}
+
+.box{
+    width: 100%;
+    height: 150px;
+    background-color: teal;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 60px;
+    color: white;
+    position: fixed;
+}   
+.menu{
+    width: 70%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+
+} 
+.menu li a{
+    color: white;
+}
+.content{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 30px 0 0 0 ;
+}
+.div img{
+    width: 300px;
+    height: 300px;
+    padding: 0 5px;
+}
+.content1{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 30px 0 0 0 ;
+}
+.div2{
+    width: 300px;
+    height: 300px;
+    padding: 0 5px;
+}
+.content2{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 30px 0 0 0 ;
+}
+.div3{
+    width: 300px;
+    height: 300px;
+    padding: 0 5px;
+}
+
+.container{
+    width: 100%;
+
+}
+
+.reklam1{
+    width: 15%;
+    height: 80%;
+    position: fixed;
+    left: 6px;
+    top: 100px;
+    z-index:-1 ;
+
+}
+.reklam img{
+    width: 100%;
+    height: 100%;
+
+}
+.reklam2{
+    width: 15%;
+    height: 80%;
+    position: fixed;
+    right: 0px;
+    top: 100px;
+    z-index:-1 ;
+}

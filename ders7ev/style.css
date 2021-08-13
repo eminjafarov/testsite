@@ -1,0 +1,11 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+.head{
+    width: 150px;
+    height: 200px;
+    color: rgb(8, 8, 8);
+    background-color: blue;
+}
+

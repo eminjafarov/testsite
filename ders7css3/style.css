@@ -1,0 +1,32 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    list-style-type: none;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+.box {
+    width: 100px;
+    height: 100px;
+    border: 1px solid black;
+    display: inline-block;
+}
+
+.list {
+    list-style-type: none;
+  
+}
+
+.list li {
+    display: inline-block;
+}
+.link{
+    
+    margin: 15px;
+    display: inline-block;
+}
+
+.big-box{
+    height: 100px;
+    width: 100px;
+    box-shadow: 3px 3px 2px 2px rgb(104, 110, 104);

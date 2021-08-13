@@ -1,0 +1,49 @@
+.box{
+    width: 200px;
+    height: 200px;
+    background-color: teal;
+    position: relative;
+    margin: 0 500px;
+    
+
+
+}
+.box::before{
+    content: "";
+    width: 200px;
+    height: 200px;
+    background-color: yellow;
+    position: absolute;
+    top:0;
+    left: -400px;
+    transition: 2s;
+    transform: rotate(0deg);
+    
+
+
+}
+.box::after{
+    content: "";
+    width: 200px;
+    height: 200px;
+    background-color: rgb(83, 53, 190);
+    position: absolute;
+    top:0;
+    right: -400px;
+    transition: 2s;
+    transform: rotate(0deg);
+}
+.box:hover::before{
+     left:400px;
+     transform: rotate(360deg);
+    
+    
+
+}
+.box:hover::after{
+    right:400px;
+    transform: rotate(360deg);
+   
+   
+
+}

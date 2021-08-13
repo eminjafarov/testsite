@@ -1,0 +1,23 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    list-style-type: none;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+.header {
+    height: 80px;
+    width: 100%;
+    border-bottom: 1px solid black;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+.logo img {
+        width: 80px;
+        height: 80px;
+    }
+    
